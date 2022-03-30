@@ -9,8 +9,8 @@ aliases:
   - &build-docker
     name: Build Docker Image
     command: |
-      docker build -t lucbas/react-native .
-      docker run --rm --name rn-env lucbas/react-native bin/sh -c "npx envinfo"
+      docker build -t jobdone/react-native .
+      docker run --rm --name rn-env jobdone/react-native bin/sh -c "npx envinfo"
 
 jobs:
   deploy:
