@@ -1,8 +1,9 @@
 ## Android Docker Image for react native
-![Build Docker image](https://github.com/react-native-community/docker-android/workflows/Build%20Docker%20image/badge.svg)
-![Publish](https://github.com/react-native-community/docker-android/workflows/Publish/badge.svg)
-[![Docker Pulls](https://img.shields.io/docker/pulls/reactnativecommunity/react-native-android.svg?maxAge=3600)](https://hub.docker.com/r/reactnativecommunity/react-native-android) 
+[![Build Docker image](https://github.com/jobdone-app/docker-android/actions/workflows/build.yaml/badge.svg)](https://github.com/jobdone-app/docker-android/actions/workflows/build.yaml)
+[![Publish](https://github.com/jobdone-app/docker-android/actions/workflows/publish.yml/badge.svg)](https://github.com/jobdone-app/docker-android/actions/workflows/publish.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jobdone/react-native-android.svg?maxAge=3600)](https://hub.docker.com/r/jobdone/react-native-android) 
 
+This is a fork of https://github.com/react-native-community/docker-android and adds Fastlane to the docker image.
 
 ## Motivation
 This is an implementation of https://github.com/react-native-community/discussions-and-proposals/blob/master/proposals/0005-Official-Docker.md.
